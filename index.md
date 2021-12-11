@@ -35,3 +35,25 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+# Data Story (Title : Studying Studying social sentiments and perceptions from quotes)
+
+## Context
+
+## Occupations
+
+## Dates
+
+## Sentiment analysis
+
+## Is there a link between one's profession and their mental state (positivity, negativity) ?
+
+## How does the sentiment of a speaker change over a given period of time ?
+
+## Can we correlate the positivity changes of different speakers' professions such as medical workers, finance workers, and climate activists with multiple history events such as the COVID19 pandemic, the subprime crisis, or global warming ?
+
+## Discussion
+
+## Difficulties
+
+## Conclusion
