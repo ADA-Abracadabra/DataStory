@@ -1,48 +1,14 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ADA-Abracadabra/DataStory/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ADA-Abracadabra/DataStory/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
 # Data Story (Title : Studying Studying social sentiments and perceptions from quotes)
 
 ## Context
+A quote is not just text, not just sentences. It is the process of using words to express an idea, thoughts, a message, an explanation and much more. If it is possible to just focus on those aspects, we must not forget that there is a mind behind a quote, a human being that lived, saw or reflected about a subject, a situation that may be its own.
+Over the years, the humanity experienced many terrible events like wars, economic crisis or more recently pandemics but also peaceful and light hearted periods such as Christmas for example.
 
-## Occupations
+People change over time, or at least the way the feel, think and express themselves, and this is what will interest us today. By focusing on the background of the mind behind a quote, we want to study and see its sentiment in general or during a specific event. Is someone's expressed sentiment directly related to its occupation, what it is going through ? Those are questions we aim to answer, focusing more on the speaker than the words he or she used.
 
 ## Dates
+
+## Occupations
 
 ## Sentiment analysis
 
