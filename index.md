@@ -27,17 +27,19 @@ Now, what about the main aspect that interest us, which is the sentiment. In ord
 This is a nice baseline before shifting our focus on the people behind the quotes, and more precisely, their occupations !
 
 ## Occupations
-Here, let's begin by explaining briefly what we did in order to study the professions. 
+Here, let's begin by explaining briefly what we did in order to study the professions. Due to the huge number of occupations, we decided to group them depending on the "domain" they are related (medicine, military, etc...). To do this, we first used a clustering method to get a kind of pre-grouping and then, we do a kind of manual check by re-attributing a job to another cluster that we define to contain only one domain based on selected wordlist related to a certain type of work. 
 
-[Maybe add some plots about occupations]
-![Clusters Plot](https://github.com/ADA-Abracadabra/DataStory/blob/gh-pages/ClusterLog.PNG)
+More formally, the initial clustering helped us to group some of the occupations together but unfortunately, since no "ecology" or "economy" cluster seemed to stand out, we had to "help" the clustering a little bit by providing a wordlist that would then look, in all the clusters that didn't make sense, for the jobs and their description in order to reclassify them together.
 
+Here is the histogram of the number of occurences of the occupations per cluster :
+![Clusters Plot](img/plotcluster.jfif)
 
-Add explanations and insights about occupations
+![Medical Plot](img/plotmedicalsentiment.jfif)
 
-![Medical Plot](https://github.com/ADA-Abracadabra/DataStory/blob/gh-pages/plotmedicalsentiment.jfif)
+![Ecology Plot](img/plotecologysentiment.jfif)
 
-![Ecology Plot](https://github.com/ADA-Abracadabra/DataStory/blob/gh-pages/plotecologysentiment.jfif)
+![Military Plot](img/plotmilitarysentiment.jfif)
+
 
 Add plot
 
