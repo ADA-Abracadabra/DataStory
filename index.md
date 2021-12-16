@@ -15,13 +15,13 @@ This allow us to get a score for each quote, which is the main metric we will us
 ## Dates
 Let's dive into the temporal aspect of our story and begin with a simple but important notion, the distribution of the quotes over time :
 
-[Add plot]
+![2016 distrib](img/distribquote2016.jfif)
 
-Overall, we do not see any weird behavior over time in the numbers of quotes, expect in 2016 where sudden drops happen, which can come from the data used, and thus we will (sadly) not work with this year in the next chapters. 
+Overall, we do not see any weird behavior over time in the numbers of quotes, expect in some years like 2016 where sudden drops happen, which can come from the data used, and thus we will (sadly) not work with this year in the next chapters. 
 Also, we note that the first and last years (2008 and 2020) are not fully covered over the data, which is not a problem by itself but may lack some precision about some events.
-Now, what about the main aspect that interest us, which is the sentiment. In order to have a first touch about this, we observe the score of the quotes month by month over the years :
+Now, what about the main aspect that interest us, which is the sentiment. In order to have a first touch about this, we observed the score of the quotes month by month over the years :
 
-[Add plot]
+![2016 Plot](img/plotsentiment2016.jfif)
 [Add analysis]
 
 This is a nice baseline before shifting our focus on the people behind the quotes, and more precisely, their occupations !
@@ -34,11 +34,15 @@ More formally, the initial clustering helped us to group some of the occupations
 Here is the histogram of the number of occurences of the occupations among all the speakers per cluster :
 ![Clusters Plot](img/plotcluster.jfif)
 
+{% slider %}
+
 ![Medical Plot](img/plotmedicalsentiment.jfif)
 
 ![Ecology Plot](img/plotecologysentiment.jfif)
 
 ![Military Plot](img/plotmilitarysentiment.jfif)
+
+{% endslider %}
 
 
 Add plot
