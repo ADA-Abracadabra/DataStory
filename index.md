@@ -4,7 +4,7 @@
 A quote is not just text, not just sentences. It is the process of using words to express an idea, thoughts, a message, an explanation and much more. If it is possible to just focus on those aspects, we must not forget that there is a mind behind a quote, a human being that lived, saw or reflected about a subject, a situation that may be its own.
 Over the years, the humanity experienced many terrible events like wars, economic crisis or more recently pandemics but also peaceful and light hearted periods such as Christmas for example.
 
-People change over time, or at least the way the feel, think and express themselves, and this is what will interest us today. By focusing on the background of the mind behind a quote, we want to study and see its sentiment in general or during a specific event. Is someone's expressed sentiment directly related to its occupation, what it is going through ? Those are questions we aim to answer, focusing more on the speaker than the words he or she used.
+People change over time, or at least the way they feel, think and express themselves, and this is what will interest us today. By focusing on the background of the mind behind a quote, we want to study and see its sentiment in general or during a specific event. Is someone's expressed sentiment directly related to its occupation, what it is going through ? Those are questions we aim to answer, focusing more on the speaker than the words he or she used.
 
 ## Sentiment analysis
 This project articulates around sentiment analysis. In order to observe any evolution, changes or to the contrary, a certain stability of the emotional state of the society, we will here work with quotes, from [Quotebank](https://github.com/epfl-dlab/Quotebank) and in order to give them a score, we will use the [VaderSentiment](https://github.com/cjhutto/vaderSentiment) as sentiment analysis tool, despite specifically attuned to sentiments expressed in social media, it turned out to be one of the best scoring model among the ones we tested.
@@ -30,8 +30,14 @@ This is a nice baseline before shifting our focus on the people behind the quote
 Here, let's begin by explaining briefly what we did in order to study the professions. 
 
 [Maybe add some plots about occupations]
+![Clusters Plot](https://github.com/ADA-Abracadabra/DataStory/blob/gh-pages/ClusterLog.PNG)
+
 
 Add explanations and insights about occupations
+
+![Medical Plot](https://github.com/ADA-Abracadabra/DataStory/blob/gh-pages/plotmedicalsentiment.jfif)
+
+![Ecology Plot](https://github.com/ADA-Abracadabra/DataStory/blob/gh-pages/plotecologysentiment.jfif)
 
 ## Is there a link between one's profession and their mental state (positivity, negativity) ?
 
