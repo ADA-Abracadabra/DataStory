@@ -1,0 +1,5 @@
+carousels:
+  - images:
+    - image: /img/plotecologysentiment.jfif
+    - image: /img/plotmedicalsentiment.jfif
+    - image: /img/plotmilitarysentiment.jfif
