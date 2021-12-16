@@ -34,8 +34,6 @@ More formally, the initial clustering helped us to group some of the occupations
 Here is the histogram of the number of occurences of the occupations among all the speakers per cluster :
 ![Clusters Plot](img/plotcluster.jfif)
 
-{% include slider.html selector="slider1" %}
-
 
 Add plot
 
