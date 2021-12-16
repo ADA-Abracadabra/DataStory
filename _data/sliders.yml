@@ -1,13 +1,12 @@
 # example slider
-- selector: example_slider
-  captions: true
+- selector: slider1
+  captions: false
   images:
-    - src: /img/1.jpg
-      alt: image one
-    - src: /img/2.jpg
-      alt: image two
-    - src: /img/3.jpg
-      alt: image three
+    - src: /img/plotmedicalsentiment.jfif
+      alt: Medical Plot
+    - src: /img/plotecologysentiment.jfif
+      alt: Ecology Plot
+    - src: /img/plotmilitarysentiment.jfif
+      alt: Military Plot
   settings:
     height: "'auto'"
-    effect: "'fade'"
