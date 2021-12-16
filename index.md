@@ -39,6 +39,8 @@ Add explanations and insights about occupations
 
 ![Ecology Plot](https://github.com/ADA-Abracadabra/DataStory/blob/gh-pages/plotecologysentiment.jfif)
 
+Add plot
+
 ## Is there a link between one's profession and their mental state (positivity, negativity) ?
 
 ## How does the sentiment of a speaker change over a given period of time ?
