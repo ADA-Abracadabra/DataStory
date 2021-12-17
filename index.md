@@ -8,23 +8,33 @@ People change over time, or at least the way they feel, think and express themse
 
 ## Sentiment analysis
 This project articulates around sentiment analysis. In order to observe any evolution, changes or to the contrary, a certain stability of the emotional state of the society, we will here work with quotes, from [Quotebank](https://github.com/epfl-dlab/Quotebank) and in order to give them a score, we will use the [VaderSentiment](https://github.com/cjhutto/vaderSentiment) as sentiment analysis tool, despite specifically attuned to sentiments expressed in social media, it turned out to be one of the best scoring model among the ones we tested.
-[Add small exemple of sentiment analysis and what we do as preprocessing]
-Our pipeline for this is really simple, we first process the quote and then apply the sentiment analyzer provided by Vader and focus on the compounding score (YET).
-This allow us to get a score for each quote, which is the main metric we will use in order to study the sentiment, mental state in the next sections !
+
+Our pipeline for this is really simple, we first process the quote and then apply the sentiment analyzer provided by Vader and focus on the returned scores.
+This allow us to get metrics for each quote that we will use in order to study the sentiment, mental state in the next sections !
 
 ## Dates
 Let's dive into the temporal aspect of our story and begin with a simple but important notion, the distribution of the quotes over time :
 
-![2016 distrib](img/distribquote2016.jfif)
+![Quotes distribution](img/distriballquotes.jfif)
 
-Overall, we do not see any weird behavior over time in the numbers of quotes, expect in some years like 2016 where sudden drops happen, which can come from the data used, and thus we will (sadly) not work with this year in the next chapters. 
+Overall, we do not see any weird behavior over time in the numbers of quotes, expect in some years like 2016 where sudden drops happen, which can come from the data used, and thus we will have to be very carefull when working with such periods in the following experiments.
 Also, we note that the first and last years (2008 and 2020) are not fully covered over the data, which is not a problem by itself but may lack some precision about some events.
+
 Now, what about the main aspect that interest us, which is the sentiment. In order to have a first touch about this, we observed the score of the quotes month by month over the years :
 
-![2016 Plot](img/plotsentiment2016.jfif)
-[Add analysis]
+![Quotes sentiment Plot](img/allquotessentimentplot.jfif)
 
-This is a nice baseline before shifting our focus on the people behind the quotes, and more precisely, their occupations !
+We observe 3 lines, in green representing the compound score (the most useful metric if you want a single unidimensional measure of sentiment for a given sentence), in blue the positivity and in yellow, the negativity. Note that we do not show the neutrality score, as it is mostly the highest score overall for all quotes, and thus is not useful to observe any relevant shift in the global sentiment.
+
+Some huge variations that we can notice in the metrics happen closely to the drops seen in the distributions of the quotes. This is the case in 2010 and 2016, but it doesn't seem to have such an impact in 2018. Again, we have to keep this in mind, since a lower quote distribution implies a greater noise at those particular periods and could be responsible for the spikes in the sentiment scores. Before going further, let's take a closer look at 2016 :
+
+![2016 quotes distribution](img/distribquote2016.jfif)
+
+![2016 sentiment plot](img/plotsentiment2016.jfif)
+
+As expected, due to the low amount of quotes, we can not observe a clear trend during this year. The huge variations in the sentiments are probably mostly due to the noise induced by the lack of data. Between these "quotes canyons" however, the more stables periods are fine to work with, which is great !
+
+Overall, when looking at all the years, we have a nice baseline to work with before shifting our focus on the people behind the quotes, and more precisely, their occupations !
 
 ## Occupations
 Here, let's begin by explaining briefly what we did in order to study the professions. Due to the huge number of occupations, we decided to group them depending on the "domain" they are related (medicine, military, etc...). To do this, we first used a clustering method to get a kind of pre-grouping and then, we do a kind of manual check by re-attributing a job to another cluster that we define to contain only one domain based on selected wordlist related to a certain type of work. 
@@ -34,9 +44,7 @@ More formally, the initial clustering helped us to group some of the occupations
 Here is the histogram of the number of occurences of the occupations among all the speakers per cluster :
 ![Clusters Plot](img/plotcluster.jfif)
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
-Add plot
 
 ## Is there a link between one's profession and their mental state (positivity, negativity) ?
 
