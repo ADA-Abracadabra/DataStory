@@ -2,9 +2,9 @@
 
 ## Context
 A quote is not just text, not just sentences. It is the process of using words to express an idea, thoughts, a message, an explanation and much more. If it is possible to just focus on those aspects, we must not forget that there is a mind behind a quote, a human being that lived, saw or reflected about a subject, a situation that may be its own.
-Over the years, the humanity experienced many terrible events like wars, economic crisis or more recently pandemics but also peaceful and light hearted periods such as Christmas for example.
+Over the years, the humanity experienced many terrible events like wars, economic crisis or more recently pandemics for example.
 
-People change over time, or at least the way they feel, think and express themselves, and this is what will interest us today. By focusing on the background of the mind behind a quote, we want to study and see its sentiment in general or during a specific event. Is someone's expressed sentiment directly related to its occupation, what it is going through ? Those are questions we aim to answer, focusing more on the speaker than the words he or she used.
+People change over time, or at least the way they feel, think and express themselves, and this is what will interest us today. By focusing on the background of the mind behind a quote, we want to study and see its sentiment in general or during a specific event. Is someone's expressed sentiment directly related to its occupation, what it is going through ? Those are questions we aim to answer, focusing on the speaker as well as the words he or she used.
 
 ## Sentiment analysis
 This project articulates around sentiment analysis. In order to observe any evolution, changes or to the contrary, a certain stability of the emotional state of the society, we will here work with quotes, from [Quotebank](https://github.com/epfl-dlab/Quotebank) and in order to give them a score, we will use the [VaderSentiment](https://github.com/cjhutto/vaderSentiment) as sentiment analysis tool, despite specifically attuned to sentiments expressed in social media, it turned out to be one of the best scoring model among the ones we tested.
@@ -74,10 +74,20 @@ Last but (sadly) least, the domain we will focus on is Economy :
 
 We're facing the first plot without any significant spikes of sentiment changes other than the ones appearing in 2016. We would have loved to be able to see, for example, the impact of the subprime crisis but it looks like our project is not accurate enough at the current state to observe such events, probably due to the way we assess the sentiment of the quotes.
 
-## How does the sentiment of a speaker change over a given period of time ?
+## Role of the occupation
 
-## Discussion
+As the last section of this story, let's take a look at the role of one's job in assessing his mental state. For this, we begin by comparing the positivity and negativity scores over the years for the 4 clusters studied in the previous chapter.
 
-## Difficulties
+![Sentiment scores clusters](img/scores_clusters.jfif)
+
+Among the domains, there is a pattern which is that the quotes are more positive than negative overall. Economy seems to be the clear most positive having the best scores every year as well as expressing less negativity. The 3 others are close for both categories, with the exception of one huge spike in negativity for the medical field in 2016, which has already been observed but may be, as we explained, due to the inconsistency of the data.
+
+Let's move on the compound scores for the same clusters, to have a better insight of the overall sentiment over the years.
+
+![Compound scores clusters](img/compound_clusters.jfif)
+
+As expected, the economy domain once again stands out by being the most positive. From 2008 to 2014 we see an increase of the score for each field, that lowers down slowly afterwards. Again, there is an exception for the medical workers which, as we mentionned beforehand, may not be signicative but we can observe that the increase of negative may already be seen in 2015.
 
 ## Conclusion
+
+Using data analysis, we were able to study the sentiment of a population over a period of time and the impact an event or the situation of the speaker may have. Depsite facing some problems working with the data, we still managed to cover a wide pannel of thematics and to get a great insight of what quotes and background of the people behind them can show of the history of humankind. 
