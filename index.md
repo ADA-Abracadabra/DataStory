@@ -59,7 +59,17 @@ If there is one thing that directly stands out this plot, it's the huge spike of
 Can something similiar be seen for medical workers ?
 ![Medical sentiment plot](img/plotmedicalsentiment.jfif)
 
+We observe 2 main drifts from the genral trend of the compound, in early 2009 and the other in 2016. The first one could be explained by the apparition of the H1N1 virus that started in april 2009. As it became a pandemic, the overall negativity of speakers from the medical domain increased. We could compare this with the drop of positivity happening in the end of 2019, early 2020, with the still ongoing covid pandemic, but unfortunately we do not have enough data to observe a clear shift in the trend.
 
+Now for 2016, as we already studied this particular year, those spikes are not significative due to the huge variance implied by the lack of data in the "quotes canyons". Thus, we have to be careful if we want to draw any conlusions from this observation.
+
+
+Now, let's focus on another cluster, the military :
+![Military sentiment plot](img/plotmilitarysentiment.jfif)
+
+Here, we see a very different plot than the previous ones we studied. The general trend seem to be 
+
+![Economy sentiment plot](img/ploteconomysentiment.jfif)
 
 ## How does the sentiment of a speaker change over a given period of time ?
 
