@@ -67,9 +67,12 @@ Now for 2016, as we already studied this particular year, those spikes are not s
 Now, let's focus on another cluster, the military :
 ![Military sentiment plot](img/plotmilitarysentiment.jfif)
 
-Here, we see a very different plot than the previous ones we studied. The general trend seem to be 
+Here, we see a very different plot than the previous ones we studied. The general trend seem to follow a decrease of negativity and an increase of the positivity over the years. While we do not have a clear explanation for this, we can still observe an interesting spike of negativity in the middle of 2014, which happen close to the announcement of the International military intervention against the Islamic State.
 
+Last but (sadly) least, the domain we will focus on is Economy :
 ![Economy sentiment plot](img/ploteconomysentiment.jfif)
+
+We're facing the first plot without any significant spikes of sentiment changes other than the ones appearing in 2016. We would have loved to be able to see, for example, the impact of the subprime crisis but it looks like our project is not accurate enough at the current state to observe such events, probably due to the way we assess the sentiment of the quotes.
 
 ## How does the sentiment of a speaker change over a given period of time ?
 
