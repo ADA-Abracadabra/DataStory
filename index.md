@@ -34,7 +34,7 @@ Some huge variations that we can notice in the metrics happen closely to the dro
 
 As expected, due to the low amount of quotes, we can not observe a clear trend during this year. The huge variations in the sentiments are probably mostly due to the noise induced by the lack of data. Between these "quotes canyons" however, the more stables periods are fine to work with, which is great !
 
-Overall, when looking at all the years, we have a nice baseline to work with before shifting our focus on the people behind the quotes, and more precisely, their occupations !
+Overall, when looking at all the years, we have a nice baseline to work with before shifting our focus on the people behind the quotes, and more precisely, their occupations.
 
 ## Occupations
 Here, let's begin by explaining briefly what we did in order to study the professions. Due to the huge number of occupations, we decided to group them depending on the "domain" they are related (medicine, military, etc...). To do this, we first used a clustering method to get a kind of pre-grouping and then, we do a kind of manual check by re-attributing a job to another cluster that we define to contain only one domain based on selected wordlist related to a certain type of work. 
@@ -44,13 +44,24 @@ More formally, the initial clustering helped us to group some of the occupations
 Here is the histogram of the number of occurences of the occupations among all the speakers per cluster :
 ![Clusters Plot](img/plotcluster.jfif)
 
+Obviously, the "trash" cluster contains the highest number of occurences of jobs we do not focus on, among all the existing domains of professions. Amidst all the speakers, there seem to be a huge amount of them that are artists, or who works in an artistic field, while there are very few people having a background related to ecology. In general, the other clusters look to be of more or less the same sizes.
+
+Now that can focus our analysis over a particular domain of occupations, let's observe how a particular profession may impact the sentiment of a speaker !
+
+## Analysis
+In this section, we aim to answer the following question : Can we correlate the positivity changes of different speakers' professions such as medical workers, finance workers, and climate activists with multiple history events like the COVID19 pandemic, the subprime crisis, or global warming ?
+
+Let's begin with the environmental domain :
+![Ecology sentiment plot](img/plotecologysentiment.jfif)
+
+If there is one thing that directly stands out this plot, it's the huge spike of negativity in early 2011. This could be explained by the sadly famous disaster of Fukushima that happened the 11th of march. Speakers working in the field of ecology could have really been touched by this event and thus express more the negativity they felt.
+
+Can something similiar be seen for medical workers ?
+![Medical sentiment plot](img/plotmedicalsentiment.jfif)
 
 
-## Is there a link between one's profession and their mental state (positivity, negativity) ?
 
 ## How does the sentiment of a speaker change over a given period of time ?
-
-## Can we correlate the positivity changes of different speakers' professions such as medical workers, finance workers, and climate activists with multiple history events such as the COVID19 pandemic, the subprime crisis, or global warming ?
 
 ## Discussion
 
