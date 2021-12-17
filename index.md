@@ -48,8 +48,8 @@ Obviously, the "trash" cluster contains the highest number of occurences of jobs
 
 Now that can focus our analysis over a particular domain of occupations, let's observe how a particular profession may impact the sentiment of a speaker !
 
-## Analysis
-In this section, we aim to answer the following question : Can we correlate the positivity changes of different speakers' professions such as medical workers, finance workers, and climate activists with multiple history events like the COVID19 pandemic, the subprime crisis, or global warming ?
+## Impact of events
+In this section, we aim to answer the following question : Can we correlate the sentiment scores variations of different speakers' professions such as medical workers, finance workers, and climate activists with historical events such as pandemics, the subprime crisis, or disasters ?
 
 Let's begin with the environmental domain :
 ![Ecology sentiment plot](img/plotecologysentiment.jfif)
